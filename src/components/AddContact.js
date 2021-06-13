@@ -14,10 +14,11 @@ class AddContact extends React.Component {
                         <label>Mail</label>
                         <input type="email" name="mail" placeholder="Mail" />
                     </div>
+                    <button className="ui button blue">Ajouter</button>
                 </form>
             </div>
-        )
-    }
-}
+        );
+    };
+};
 
 export default AddContact;

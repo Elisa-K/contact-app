@@ -7,7 +7,9 @@ import ContactList from './ContactList';
 function App() {
   return (
     <div>
-      Hello World
+      <Header />
+      <AddContact />
+      <ContactList />
     </div>
   );
 }
